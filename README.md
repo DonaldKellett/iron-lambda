@@ -21,6 +21,7 @@ After having the correct versions of Coq and CoqIDE installed, execute the follo
 ```bash
 $ coq_makefile -f _CoqProject -o Makefile # Create Makefile from _CoqProject
 $ make
+$ coqide # Open CoqIDE 8.6 from local switch. Note that doing it outside of /path/to/your/iron-lambda/ will open your default (probably much newer) version of CoqIDE!
 ```
 
 `make` should succeed (perhaps with a few warnings) and you should now be able to step through the vernacular files in this repo interactively using CoqIDE 8.6. If not then feel free to open an issue.
