@@ -32,6 +32,10 @@ $ coqide # Open CoqIDE 8.6 from local switch. Note that doing it outside of /pat
 
 Simply Typed Lambda Calculus (STLC). "Simple" here refers to the lack of polymorphism.
 
+### SimplePCF
+
+STLC with booleans, naturals and fixpoint.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)

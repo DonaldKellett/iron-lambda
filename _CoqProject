@@ -1,9 +1,4 @@
 -Q ./done/Iron/ Iron
--Q ./done/Iron/Tactics Iron.Tactics
--Q ./done/Iron/Data/ Iron.Data
--Q ./done/Iron/Data/List Iron.Data.List
--Q ./done/Iron/Norm/ Iron.Norm
--Q ./done/Iron/Language/Simple/ Iron.Language.Simple
 
 ./done/Iron/Tactics/LibTactics.v
 ./done/Iron/Tactics/Short.v
@@ -48,3 +43,12 @@
 ./done/Iron/Language/Simple/Eval.v
 ./done/Iron/Language/Simple/Progress.v
 ./done/Iron/Language/Simple.v
+./done/Iron/Language/SimplePCF/Base.v
+./done/Iron/Language/SimplePCF/Exp.v
+./done/Iron/Language/SimplePCF/Ty.v
+./done/Iron/Language/SimplePCF/SubstExpExp.v
+./done/Iron/Language/SimplePCF/Step.v
+./done/Iron/Language/SimplePCF/Progress.v
+./done/Iron/Language/SimplePCF/Preservation.v
+./done/Iron/Language/SimplePCF/Eval.v
+./done/Iron/Language/SimplePCF.v
