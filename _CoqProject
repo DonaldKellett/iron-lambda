@@ -1,0 +1,50 @@
+-Q ./done/Iron/ Iron
+-Q ./done/Iron/Tactics Iron.Tactics
+-Q ./done/Iron/Data/ Iron.Data
+-Q ./done/Iron/Data/List Iron.Data.List
+-Q ./done/Iron/Norm/ Iron.Norm
+-Q ./done/Iron/Language/Simple/ Iron.Language.Simple
+
+./done/Iron/Tactics/LibTactics.v
+./done/Iron/Tactics/Short.v
+./done/Iron/Tactics/Rip.v
+./done/Iron/Tactics/Exists.v
+./done/Iron/Tactics/Case.v
+./done/Iron/Tactics/Nope.v
+./done/Iron/Tactics/Have.v
+./done/Iron/Tactics/Rewrite.v
+./done/Iron/Tactics/Burn.v
+./done/Iron/Tactics/Break.v
+./done/Iron/Tactics.v
+./done/Iron/Data/Nat.v
+./done/Iron/Data/List/Base.v
+./done/Iron/Data/List/Concat.v
+./done/Iron/Data/List/Delete.v
+./done/Iron/Data/List/Elem.v
+./done/Iron/Data/List/Extends.v
+./done/Iron/Data/List/Filter.v
+./done/Iron/Data/List/Firstn.v
+./done/Iron/Data/List/Forall.v
+./done/Iron/Data/List/Replace.v
+./done/Iron/Data/List/Forall2.v
+./done/Iron/Data/List/Insert.v
+./done/Iron/Data/List/Map.v
+./done/Iron/Data/List/Max.v
+./done/Iron/Data/List/Program.v
+./done/Iron/Data/List/Update.v
+./done/Iron/Data/List.v
+./done/Iron/Norm/List.v
+./done/Iron/Norm.v
+./done/Iron/Tactics/Rip2.v
+./done/Iron/Tactics/Rewrite2.v
+./done/Iron/Tactics/Comb.v
+./done/Iron/Language/Simple/Base.v
+./done/Iron/Language/Simple/Exp.v
+./done/Iron/Language/Simple/Ty.v
+./done/Iron/Language/Simple/SubstExpExp.v
+./done/Iron/Language/Simple/Bonus.v
+./done/Iron/Language/Simple/Step.v
+./done/Iron/Language/Simple/Preservation.v
+./done/Iron/Language/Simple/Eval.v
+./done/Iron/Language/Simple/Progress.v
+./done/Iron/Language/Simple.v
