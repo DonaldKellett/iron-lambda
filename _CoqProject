@@ -52,3 +52,12 @@
 ./done/Iron/Language/SimplePCF/Preservation.v
 ./done/Iron/Language/SimplePCF/Eval.v
 ./done/Iron/Language/SimplePCF.v
+./done/Iron/Language/SimpleRef/Base.v
+./done/Iron/Language/SimpleRef/Exp.v
+./done/Iron/Language/SimpleRef/Ty.v
+./done/Iron/Language/SimpleRef/SubstExpExp.v
+./done/Iron/Language/SimpleRef/Step.v
+./done/Iron/Language/SimpleRef/Progress.v
+./done/Iron/Language/SimpleRef/Preservation.v
+./done/Iron/Language/SimpleRef/Eval.v
+./done/Iron/Language/SimpleRef.v

@@ -36,6 +36,10 @@ Simply Typed Lambda Calculus (STLC). "Simple" here refers to the lack of polymor
 
 STLC with booleans, naturals and fixpoint.
 
+### SimpleRef
+
+STLC with mutable references. The typing judgement includes a store typing.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
