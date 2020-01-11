@@ -44,6 +44,10 @@ STLC with mutable references. The typing judgement includes a store typing.
 
 STLC with algebraic data and case expressions. The definition of expressions uses indirect mutual recursion. Expressions contain a list of case-alternatives, and alternatives contain expressions, but the definition of the list type is not part of the same recursive group. The proof requires that we define our own induction scheme for expressions.
 
+### SystemF
+
+Compared to STLC, the proof for SystemF needs more lifting lemmas so it can deal with deBruijn indices at the type level.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
