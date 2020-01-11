@@ -40,6 +40,10 @@ STLC with booleans, naturals and fixpoint.
 
 STLC with mutable references. The typing judgement includes a store typing.
 
+### SimpleData
+
+STLC with algebraic data and case expressions. The definition of expressions uses indirect mutual recursion. Expressions contain a list of case-alternatives, and alternatives contain expressions, but the definition of the list type is not part of the same recursive group. The proof requires that we define our own induction scheme for expressions.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
