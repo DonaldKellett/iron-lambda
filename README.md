@@ -48,6 +48,10 @@ STLC with algebraic data and case expressions. The definition of expressions use
 
 Compared to STLC, the proof for SystemF needs more lifting lemmas so it can deal with deBruijn indices at the type level.
 
+### SystemF2
+
+Very similar to SystemF, but with higher kinds.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
