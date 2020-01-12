@@ -52,6 +52,10 @@ Compared to STLC, the proof for SystemF needs more lifting lemmas so it can deal
 
 Very similar to SystemF, but with higher kinds.
 
+### SystemF2Data
+
+SystemF2 with algebraic data and case expressions. Requires that we define simultaneous substitutions, which are used when subsituting expressions bound by pattern variables into the body of an alternative. The language allows data constructors to be applied to general expressions rather than just values, which requires more work when defining evaluation contexts.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
