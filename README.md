@@ -56,6 +56,10 @@ Very similar to SystemF, but with higher kinds.
 
 SystemF2 with algebraic data and case expressions. Requires that we define simultaneous substitutions, which are used when subsituting expressions bound by pattern variables into the body of an alternative. The language allows data constructors to be applied to general expressions rather than just values, which requires more work when defining evaluation contexts.
 
+### SystemF2Store
+
+SystemF2 with algebraic data, case expressions and a mutable store. All data is allocated into the store and can be updated with primitive polymorphic update operators.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
