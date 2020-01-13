@@ -60,6 +60,10 @@ SystemF2 with algebraic data and case expressions. Requires that we define simul
 
 SystemF2 with algebraic data, case expressions and a mutable store. All data is allocated into the store and can be updated with primitive polymorphic update operators.
 
+### SystemF2Effect
+
+SystemF2 with a region and effect system. Mutable references are allocated in regions in the store, and their lifetime follows the lexical structure of the code.
+
 ## LICENSE
 
 See [LICENSE](./blob/master/LICENSE) (copied from https://github.com/discus-lang/iron/blob/master/LICENSE)
