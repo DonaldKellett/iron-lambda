@@ -64,7 +64,7 @@ SystemF2 with algebraic data, case expressions and a mutable store. All data is 
 
 SystemF2 with a region and effect system. Mutable references are allocated in regions in the store, and their lifetime follows the lexical structure of the code.
 
-## Contributing
+## CONTRIBUTING
 
 This repo is not accepting any contributions.
 
